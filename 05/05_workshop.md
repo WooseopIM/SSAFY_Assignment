@@ -24,11 +24,17 @@ def mymul(x,y):
     return c
 
 def mydiv(x,y):
-    if y == 0:
+    try:
+        return x/y
+    except ZeroDivisionError:
         return '0으로는 나눌 수 없습니다.'
-    else:
-        d = x/y
-    return d
+
+print(mydiv(12,4))
+print(mydiv(12,0))
+
+[결과]
+3.0
+0으로는 나눌 수 없습니다.
 ```
 
 

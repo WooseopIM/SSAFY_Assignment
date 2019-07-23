@@ -14,8 +14,8 @@ def fibo_recursion(n):
 from(	(A)   ) import(   (B)   ) as (   (C)   )
 ```
 
-- (A): fibo
-- (B): fibo_recursion
+- (A): fibo(파일명이 기준이 되어야 하므로)
+- (B): fibo_recursion(안에 있는 속성(attribute)을 가리키므로)
 - (C): recursion(아무렇게나 내가 원하는대로 이름 지정할 수 있음)
 
 
