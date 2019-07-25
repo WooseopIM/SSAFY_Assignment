@@ -96,5 +96,5 @@ calc.add(2, 5)
 calc.history()
 ```
 
-- 이 소스코드의 경우, info(self)에 들어가는 self는 <class Calculator>의 instance인 calc이다. 
-- history(cls)에 들어가는 cls는 <class Calculator>를 참조한다.
+- 이 소스코드의 경우, info(self)에 들어가는 self는 `class Calculator`의 instance인 calc이다. 
+- history(cls)에 들어가는 cls는 `class Calculator`를 참조한다.
