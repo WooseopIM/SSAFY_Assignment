@@ -2,7 +2,7 @@
 
 ## 01. HTML의 약자
 
-`Hyper Text Markyp Language`
+`Hyper Text Markup Language`
 
 
 

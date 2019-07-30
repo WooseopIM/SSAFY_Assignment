@@ -42,3 +42,12 @@
 ```
 
 > 파일 크기는 그냥 임의로 넣어봄
+>
+> 절대경로(Django에서 주로 사용)와 상대경로(html이 주로 사용)
+>
+> ```html
+> <!-- TIL 위치가 home directory라면 -->
+> <img src="~/TIL/SSAFY/Image/myphoto.png" alt="">
+> ```
+>
+> 
