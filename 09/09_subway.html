@@ -7,33 +7,36 @@
   <title>FORM</title>
 </head>
 <body>
-  <h2>FORM</h2>
-    <p>주문서를 작성하여 주십시오</p>
-    <div>이름: <input type="text"></div>
-    <div>날짜: <input type="text"></div>
-    <h3>1. 샌드위치 선택</h3>
-    <div><input type="radio"> 에그 마요</div>
-    <div><input type="radio"> 이탈리안 비엠티</div>
-    <div><input type="radio"> 터키 베이컨 아보카도</div>
-    <hr>
-  <h3>2. 사이즈 선택</h3>
-    <input type="text" name="" id="">
-    <hr>
-  <h3>3. 빵 선택</h3>
-    <select name="" id="">
-    <OPTION value="허니 오트">허니 오트</OPTION>
-    <OPTION value="플랫 브레드">플랫 브레드</OPTION>
-    <OPTION value="하티 이탈리안">하티 이탈리안</OPTION>
-    </select>
-    <hr>
-  <h3>4. 야채/소스</h3>
-    <div><input type="checkbox"> 토마토</div>
-    <div><input type="checkbox"> 오이</div>
-    <div><input type="checkbox"> 할라피뇨</div>
-    <div><input type="checkbox"> 핫 칠리</div>
-    <div><input type="checkbox"> 바베큐</div>
+<form action="">
+    <h2>FORM</h2>
+      <p>주문서를 작성하여 주십시오</p>
+        <span>이름: <input type="text" placeholder="이름을 입력해주세요"></span><br>
+        <span>날짜: <input type="date" value="2019-01-03" name=date></span>
+        <h3>1. 샌드위치 선택</h3>
+        <input type="radio" name="sandwich" value="1"> 에그 마요<br>
+        <input type="radio" name="sandwich" value="2"> 이탈리안 비엠티<br>
+        <input type="radio" name="sandwich" value="3"> 터키 베이컨 아보카도<br>
+      <hr>
+      <h3>2. 사이즈 선택</h3>
+        <input type="number" min="15" max="30">
+      <hr>
+      <h3>3. 빵 선택</h3>
+        <select name="" id="">
+          <OPTION name="bread" value="1">허니 오트</OPTION>
+          <OPTION name="bread" value="2" disabled>플랫 브레드</OPTION>
+          <OPTION name="bread" value="3">하티 이탈리안</OPTION>
+        </select>
+      <hr>
+      <h3>4. 야채/소스</h3>
+        <input type="checkbox"> 토마토<br>
+        <input type="checkbox"> 오이<br>
+        <input type="checkbox"> 할라피뇨<br>
+        <input type="checkbox"> 핫 칠리<br>
+        <input type="checkbox"> 바베큐<br>
+    <footer>
+      <button>submit</button>
+    </footer>
 </body>
-<footer>
-  <button>submit</button>
-</footer>
+</form>
+
 </html>
