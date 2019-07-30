@@ -42,7 +42,7 @@
 <body>
   <form action="">
     <div>ID : <input type="text"></div>
-    <div>PWD : <input type="text"> <button>로그인</button></div>
+    <div>PWD : <input type="password"> <button>로그인</button></div>
   </form>
 </body>
 </html>
