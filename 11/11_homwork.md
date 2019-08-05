@@ -53,5 +53,3 @@ Bootstrap Grid System은 레이아웃을 (A)개의 column으로, (B)개의 반�
 </div>
 ```
 
-
-
