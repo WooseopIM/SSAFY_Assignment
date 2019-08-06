@@ -6,6 +6,8 @@
 
 Bootstrap의 `btn 컴포넌트`
 
+링크를 버튼화 할 수 있다.
+
 ```html
 <button class="btn btn-danger">Danger</button>
 ```
@@ -34,7 +36,7 @@ Bootstrap Grid System은 레이아웃을 (A)개의 column으로, (B)개의 반�
 
 ```html
 (A) 12개
-(B) 4개(sm,md,lg,xl)
+(B) 5개(xs,sm,md,lg,xl)
 ```
 
 
