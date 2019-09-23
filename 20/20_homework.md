@@ -5,7 +5,7 @@
 > School 모델과 Student 모델을 1:N 관계로 설정하려고 한다. models.py의 Student 모델에서 필요한 코드를 작성해라
 
 ```python
-# 정답: ForeighKey
+# 정답: ForeignKey
 class Student(models.Model):
     name = model.CharField(max_length=100)
     student_id = models.IntegerField()
