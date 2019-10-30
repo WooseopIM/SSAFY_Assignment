@@ -53,7 +53,7 @@ inner.length; // 1 입니다. 0 이 아닙니다!
 3. const content = element.innerHTML; 과 같이 선언
 4. 교체; 전체 태그에 합쳐지는 것(전체데이터 += 추가데이터를 새로 쓰는 효과)
 
-// 2. appendChild()	   (Method)
+// 2. appendChild()	   (DOM Method)
 1. 추가; 현재 위치에만 추가(추가데이터만 필요할 때는 이것만 쓴다)
 ```
 
