@@ -1,35 +1,36 @@
-# 26_Homework	`Django-Auth`
+# 27_Homework	`Media, Static 파일`
 
->사용자 인증(Authentication) 및 권한 관리(Authorization)
+## 01. Fixture 파일형식
 
-## 01. 사용자 권한 관리
-
-> 로그인 한 사용자만 게시물을 작성할 수 있도록 해주는 코드
+> attachment 컬럼에 파일을 저장하려 할 때 빈 칸 `___(a)___`에 정의해야 하는 field 작성
 
 ```python
-from django.contrib.auth.decorators import login_required
-
-@login_required
-def create(request):
-    if requeset.method == "POST":
-        article_form = ArticleForm(request.POST)
+class Post(models.Model):
+    attachment = models._____(a)_____
 ```
 
-## 02. 1:N 관계 형성
+```
 
-> Aticle 모델에 사용자 정보가 담긴 모델과 1:N 관계를 형성하기 위한 칼럼을 추가하려 할 때 써야하는 코드
+```
+
+
+
+## 02. Fixture 
+
+> 사용자가 업로드한 파일이 저장되는 위치를 Django 프로젝트 폴더 내부의 `/uploaded_files`로 지정하고자 할 때, settings.py에 작성해야하는 설정 2가지와 이것이 의미하는 바를 간략하게 작성
+>
+
+- 
+
+
+
+## 03. 
+
+> 개발자가 작성한 CSS 파일이나 넣고자 하는 이미지 파일 등이 Django 프로젝트 폴더 내부의 `/assets`에 있다. 이 폴더 안에 Static 파일이 있다고 Django 프로젝트에게 알려주기 위하여 settings.py에 작성해야 하는 설정을 작성하자
 
 ```python
-from django.db import models
-from django.conf import ___(a)___
-
-class Article(models.Model):
-    user = models.ForeignKey(___(b)___, on_delete=models.CASCADE)
+# settings.py
 ```
 
-```
-(a): settings
-(b): settings.AUTH_USER_MODEL
-```
 
-참고: https://blog.hannal.com/2015/06/start_with_django_webframework_09/
+
