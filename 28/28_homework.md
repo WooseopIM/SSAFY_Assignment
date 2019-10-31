@@ -18,7 +18,11 @@
 
 > REST는 Representational State Transfer의 약자로 자원의 표현을 하기 위한 아키텍처 중 하나이다. 장점 중에 하나로 HTTP 프로토콜 인프라를 그대로 사용한다. 즉, `___(a)___`를 통해 자원을 명시하고 `___(b)___`를 통해 자원에 대한 동작을 나타낸다. 빈칸 (a), (b)에 들어갈 용어를 작성
 >
->  https://meetup.toast.com/posts/92 
+> https://meetup.toast.com/posts/92 
+>
+> https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html 
+>
+> https://poiemaweb.com/js-rest-api 
 
 ```
 (a): URI
