@@ -38,6 +38,6 @@
 > SSAFY 회원 정보가 있는 API를 구조화하였을 때, 1반(classes)의 3번 학생(members)을 나타내는 URL 예시를 작성
 
 ```
-GET /classes/1/3
+GET /classes/1/members/3
 ```
 
