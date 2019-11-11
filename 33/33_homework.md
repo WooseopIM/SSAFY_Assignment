@@ -1,4 +1,5 @@
-# 32_Homework	`Vue.js`
+# 33_Homework	`Vue.js`
+
 ## 01. SPA
 
 > SPA가 무엇의 약자인지 작성하고 어떤 것을 의미하는지 간단하게 작성
